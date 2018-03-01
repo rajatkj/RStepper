@@ -111,6 +111,7 @@ class RStepper: UIControl {
         labelValue = UILabel()
         decrementButton = stepperButton(frame: CGRect(x: 0, y: 0, width: 24, height: 24), image: #imageLiteral(resourceName: "minus.png"))
         labelValue.text = "0"
+        labelValue.textAlignment = .center
         //Configure Container StackView
         
         stackView = UIStackView(frame: bounds)
